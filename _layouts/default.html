@@ -8,6 +8,12 @@ image: /images/header.jpg
 <!doctype html>
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
   <head>
+    {% if page.image %}
+      {% assign intro_image = page.image.path | default: page.image | relative_url | escape %}
+      <div class="intro-image">
+        <img src="{{ intro_image }}" alt="{{ page.title }}">
+      </div>
+    {% endif %}
     {% include head.html %}
     {% include head/custom.html %}
   </head>
