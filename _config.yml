@@ -51,7 +51,7 @@ atom_feed:
 
 # Header
 header:
-   image: images/header.jpg
+   image: /images/header.jpg
 
 # SEO Related
 google_site_verification :
