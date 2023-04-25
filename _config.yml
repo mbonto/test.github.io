@@ -50,7 +50,7 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # Header
-header_feature_image: images/header.png
+header_feature_image: images/header.jpg
 
 # SEO Related
 google_site_verification :
